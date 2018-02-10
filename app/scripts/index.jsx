@@ -16,7 +16,6 @@ import { store, persistor } from 'app-store';
 import { showAlert } from 'actions';
 
 import App from 'containers/App';
-import Loader from 'components/Loader';
 import '../styles/main.scss';
 
 export const init = {
@@ -114,7 +113,6 @@ export const init = {
         <AppContainer>
           <Provider store={store}>
             <PersistGate
-              loading={<Loader />}
               persistor={persistor}
             >
               <Component />

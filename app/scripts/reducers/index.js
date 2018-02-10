@@ -4,11 +4,11 @@
  */
 
 import app from './app';
-import github from './github';
-import user from './user';
+import ticker from './ticker';
+import book from './book';
 
 export default {
   ...app,
-  ...github,
-  ...user,
+  ...ticker,
+  ...book,
 };

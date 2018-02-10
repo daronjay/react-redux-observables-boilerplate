@@ -4,11 +4,10 @@
  */
 
 import { combineEpics } from 'redux-observable';
-import { userLogin, userLogout } from './user';
-import { fetchPopularRepos } from './github';
+import { fetchTicker } from './ticker';
+import { fetchBook } from './book';
 
 export default combineEpics(
-  userLogin,
-  userLogout,
-  fetchPopularRepos
+  fetchTicker,
+  fetchBook
 );

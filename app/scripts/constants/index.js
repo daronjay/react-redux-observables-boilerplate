@@ -11,17 +11,14 @@ import keyMirror from 'fbjs/lib/keyMirror';
  * @memberof Constants
  */
 export const ActionTypes: Object = keyMirror({
-  USER_LOGIN_REQUEST: undefined,
-  USER_LOGIN_SUCCESS: undefined,
-  USER_LOGIN_FAILURE: undefined,
-  USER_LOGOUT_REQUEST: undefined,
-  USER_LOGOUT_SUCCESS: undefined,
-  USER_LOGOUT_FAILURE: undefined,
-  FETCH_POPULAR_REPOS_REQUEST: undefined,
-  FETCH_POPULAR_REPOS_SUCCESS: undefined,
-  FETCH_POPULAR_REPOS_FAILURE: undefined,
-  FETCH_POPULAR_REPOS_CANCEL: undefined,
-  CANCEL_FETCH: undefined,
+  FETCH_TICKER_REQUEST: undefined,
+  FETCH_TICKER_SUCCESS: undefined,
+  FETCH_TICKER_FAILURE: undefined,
+  FETCH_TICKER_CANCEL: undefined,
+  FETCH_BOOK_REQUEST: undefined,
+  FETCH_BOOK_SUCCESS: undefined,
+  FETCH_BOOK_FAILURE: undefined,
+  FETCH_BOOK_CANCEL: undefined,
   SHOW_ALERT: undefined,
   HIDE_ALERT: undefined,
 });
